@@ -67,6 +67,12 @@ void DisplayTuesdayLabUserList(HANDLE hConsole)
 	++row;
 
 	std::cout << "                 Sergio Juarez           sergeminator                   " << std::endl;
+
+	SetConsoleTextAttribute(hConsole, FOREGROUND_RED | FOREGROUND_BLUE | FOREGROUND_INTENSITY | FOREGROUND_INTENSITY);
+	SetTextCoordinates(col, row);
+	++row;
+
+	std::cout << "                 Esk Eve                 StellarSpirit                   " << std::endl;
 	
 	SetConsoleTextAttribute(hConsole, FOREGROUND_RED | FOREGROUND_INTENSITY);
 	SetTextCoordinates(col, row);
