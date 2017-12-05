@@ -74,7 +74,7 @@ void DisplayTuesdayLabUserList(HANDLE hConsole)
 
 	std::cout << "                 Esk Eve                 StellarSpirit                   " << std::endl;
 	
-	SetConsoleTextAttribute(hConsole, FOREGROUND_RED | FOREGROUND_INTENSITY);
+	SetConsoleTextAttribute(hConsole, FOREGROUND_RED | FOREGROUND_BLUE | FOREGROUND_INTENSITY);
 	SetTextCoordinates(col, row);
 	++row;
 
