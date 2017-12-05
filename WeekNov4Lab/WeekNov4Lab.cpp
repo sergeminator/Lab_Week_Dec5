@@ -3,7 +3,7 @@
 int main(int argc, char* argv[])
 {
 	HANDLE hstdout = GetStdHandle(STD_OUTPUT_HANDLE);
-
+	// Adding something here just for fun
 	DisplayIntroMessage(hstdout);
 
 	DisplayTuesdayLabUserList(hstdout);
