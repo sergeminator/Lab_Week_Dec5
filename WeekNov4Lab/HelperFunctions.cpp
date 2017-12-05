@@ -27,7 +27,7 @@ void DisplayIntroMessage(HANDLE hConsole)
 	//BACKGROUND_INTENSITY	Background color is intensified.
 
 	// Combine colors in forground to create cyan
-	SetConsoleTextAttribute(hConsole, FOREGROUND_BLUE | FOREGROUND_GREEN | FOREGROUND_INTENSITY | BACKGROUND_BLUE);
+	SetConsoleTextAttribute(hConsole, FOREGROUND_GREEN | FOREGROUND_GREEN | FOREGROUND_INTENSITY | BACKGROUND_RED);
 
 	SetTextCoordinates(48, 16);
 	std::cout << "***********" << std::endl;
@@ -39,11 +39,11 @@ void DisplayIntroMessage(HANDLE hConsole)
 	// If you don't provide a forground color, it will display white text like in the following example
 
 	SetTextCoordinates(41, 21);
-	SetConsoleTextAttribute(hConsole, BACKGROUND_BLUE | BACKGROUND_GREEN | BACKGROUND_RED);
+	SetConsoleTextAttribute(hConsole, BACKGROUND_RED | BACKGROUND_GREEN | BACKGROUND_INTENSITY);
 	std::cout << "Enter any text to continue" << std::endl;
 
 	// If you don't provide a background color, it will display black background
-	SetConsoleTextAttribute(hConsole, FOREGROUND_BLUE | FOREGROUND_GREEN | FOREGROUND_RED );
+	SetConsoleTextAttribute(hConsole, FOREGROUND_RED | FOREGROUND_RED | FOREGROUND_RED );
 	std::string userInput = "";
 	std::cin >> userInput;
 }
@@ -67,35 +67,25 @@ void DisplayTuesdayLabUserList(HANDLE hConsole)
 	++row;
 
 	std::cout << "                 Sergio Juarez           sergeminator                   " << std::endl;
-
+	
 	SetConsoleTextAttribute(hConsole, FOREGROUND_RED | FOREGROUND_INTENSITY);
 	SetTextCoordinates(col, row);
 	++row;
 
-	std::cout << "------------------------------------------------------------------------" << std::endl;
-
-	SetConsoleTextAttribute(hConsole, FOREGROUND_BLUE | FOREGROUND_GREEN | FOREGROUND_INTENSITY);
+	SetConsoleTextAttribute(hConsole, FOREGROUND_GREEN | FOREGROUND_GREEN | FOREGROUND_INTENSITY | FOREGROUND_INTENSITY);
 	SetTextCoordinates(col, row);
 	++row;
 
-	std::cout << "------------------------------------------------------------------------" << std::endl;
+	std::cout << "                 Armoghan Choudhry           Armo1                   " << std::endl;
 
-
-	SetConsoleTextAttribute(hConsole, FOREGROUND_BLUE | FOREGROUND_GREEN | FOREGROUND_INTENSITY | FOREGROUND_INTENSITY);
-	SetTextCoordinates(col, row);
-	++row;
-
-	std::cout << "                 Ricardo Shimoda           ricardoshimoda               " << std::endl;
-	std::cout << "                 Anton Kogan           theblazer\o               " << std::endl;
-
-	SetConsoleTextAttribute(hConsole, FOREGROUND_BLUE | FOREGROUND_GREEN | FOREGROUND_INTENSITY);
+	SetConsoleTextAttribute(hConsole, FOREGROUND_BLUE | FOREGROUND_INTENSITY);
 	SetTextCoordinates(col, row);
 	++row;
 
 	std::cout << "------------------------------------------------------------------------" << std::endl;
 
 	row += 5;
-	SetConsoleTextAttribute(hConsole, FOREGROUND_RED | FOREGROUND_GREEN | BACKGROUND_RED);
+	SetConsoleTextAttribute(hConsole, BACKGROUND_BLUE | BACKGROUND_GREEN | BACKGROUND_RED);
 	SetTextCoordinates(col, row);
 	++row;
 
