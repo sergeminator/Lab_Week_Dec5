@@ -62,10 +62,11 @@ void DisplayTuesdayLabUserList(HANDLE hConsole)
 	std::cout << "------------------------------------------------------------------------" << std::endl;
 	
 	
-	SetConsoleTextAttribute(hConsole, FOREGROUND_RED | FOREGROUND_BLUE | FOREGROUND_INTENSITY | FOREGROUND_INTENSITY);
+	SetConsoleTextAttribute(hConsole, FOREGROUND_GREEN | FOREGROUND_BLUE | FOREGROUND_INTENSITY | FOREGROUND_INTENSITY);
 	SetTextCoordinates(col, row);
 	++row;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 	std::cout << "                 Sergio Juarez           sergeminator                   " << std::endl;
 
@@ -80,8 +81,22 @@ void DisplayTuesdayLabUserList(HANDLE hConsole)
 	std::cout << "                 Medushan Ranjan           Medushan                   " << std::endl;
 	
 <<<<<<< HEAD
-	SetConsoleTextAttribute(hConsole, FOREGROUND_GREEN | FOREGROUND_INTENSITY);
 =======
+	std::cout << "                 Sergio Juarez           sergeminator                   " << std::endl;
+
+	SetConsoleTextAttribute(hConsole, FOREGROUND_BLUE | FOREGROUND_RED | FOREGROUND_INTENSITY | FOREGROUND_INTENSITY);
+	SetTextCoordinates(col, row);
+	++row;
+
+	std::cout << "                 Timothy Reynolds        ReynoldsKTim                   " << std::endl;
+
+>>>>>>> 489524b72181cab5031531bf97dc72f81d47d4ac
+	SetConsoleTextAttribute(hConsole, FOREGROUND_GREEN | FOREGROUND_INTENSITY);
+	SetTextCoordinates(col, row);
+	++row;
+
+	std::cout << "                 Medushan Ranjan           Medushan                   " << std::endl;
+
 	SetConsoleTextAttribute(hConsole, FOREGROUND_RED | FOREGROUND_BLUE | FOREGROUND_INTENSITY);
 	SetTextCoordinates(col, row);
 	++row;
@@ -89,8 +104,11 @@ void DisplayTuesdayLabUserList(HANDLE hConsole)
 	std::cout << "                 David Tees              Sawus                          " << std::endl;
 
 	SetConsoleTextAttribute(hConsole, FOREGROUND_RED | FOREGROUND_INTENSITY);
+<<<<<<< HEAD
 >>>>>>> e0c0403f3e97fecabcc6a7b873b67b95cb0acadf
 >>>>>>> e904f1fee02ed114abe7bae5dc12afeeea9a7ac1
+=======
+>>>>>>> 489524b72181cab5031531bf97dc72f81d47d4ac
 	SetTextCoordinates(col, row);
 	++row;
 
