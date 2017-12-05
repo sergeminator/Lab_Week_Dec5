@@ -30,3 +30,12 @@
 *.exe
 *.out
 *.app
+*.idb
+*.pdb
+*.log
+*.tlog
+*.ilk
+*.opendb
+*.db
+.vs/WeekNov4Lab/v15/.suo
+*.ipch
