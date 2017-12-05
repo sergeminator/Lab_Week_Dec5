@@ -1,0 +1,4 @@
+﻿1>------ Build started: Project: WeekNov4Lab, Configuration: Debug x64 ------
+1>WeekNov4Lab.vcxproj -> C:\Users\101116005\Desktop\Github Repositories\Lab_Week_Dec5\x64\Debug\WeekNov4Lab.exe
+1>WeekNov4Lab.vcxproj -> C:\Users\101116005\Desktop\Github Repositories\Lab_Week_Dec5\x64\Debug\WeekNov4Lab.pdb (Partial PDB)
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
