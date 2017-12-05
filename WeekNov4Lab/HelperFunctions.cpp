@@ -66,7 +66,6 @@ void DisplayTuesdayLabUserList(HANDLE hConsole)
 	SetTextCoordinates(col, row);
 	++row;
 
-	std::cout << "                 Medushan Ranjan           Medushan                   " << std::endl;
 	std::cout << "                 Sergio Juarez           sergeminator                   " << std::endl;
 	//Insert your code here   
 
@@ -76,11 +75,6 @@ void DisplayTuesdayLabUserList(HANDLE hConsole)
 
 	std::cout << "                 Esk Eve                 StellarSpirit                   " << std::endl;
 	
-	SetConsoleTextAttribute(hConsole, FOREGROUND_RED | FOREGROUND_BLUE | FOREGROUND_INTENSITY);
-	std::cout << "                 Medushan Ranjan           Medushan                   " << std::endl;
-	
-	std::cout << "                 Medushan Ranjan           Medushan                   " << std::endl;
-	std::cout << "                 Sergio Juarez           sergeminator                   " << std::endl;
 
 	SetConsoleTextAttribute(hConsole, FOREGROUND_BLUE | FOREGROUND_RED | FOREGROUND_INTENSITY | FOREGROUND_INTENSITY);
 	SetTextCoordinates(col, row);
