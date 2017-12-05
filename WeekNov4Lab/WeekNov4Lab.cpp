@@ -7,6 +7,7 @@ int main(int argc, char* argv[])
 	DisplayIntroMessage(hstdout);
 
 	DisplayTuesdayLabUserList(hstdout);
+
 	DisplayWednesdayLabUserList(hstdout);
 	DisplayThursdayLabUserList(hstdout);
 
