@@ -55,14 +55,18 @@ void DisplayTuesdayLabUserList(HANDLE hConsole)
 	int row = 5;
 	int col = 10;
 
-	SetConsoleTextAttribute(hConsole, FOREGROUND_RED | FOREGROUND_INTENSITY);
+	SetConsoleTextAttribute(hConsole, FOREGROUND_GREEN | FOREGROUND_INTENSITY);
 	SetTextCoordinates(col, row);
 	++row;
 
 	std::cout << "------------------------------------------------------------------------" << std::endl;
-	
-	
+
+
 	SetConsoleTextAttribute(hConsole, FOREGROUND_BLUE | FOREGROUND_GREEN | FOREGROUND_INTENSITY | FOREGROUND_INTENSITY);
+
+	
+	SetConsoleTextAttribute(hConsole, FOREGROUND_GREEN | FOREGROUND_BLUE | FOREGROUND_INTENSITY | FOREGROUND_INTENSITY);
+ 
 	SetTextCoordinates(col, row);
 	++row;
 
@@ -72,9 +76,58 @@ void DisplayTuesdayLabUserList(HANDLE hConsole)
 	SetTextCoordinates(col, row);
 	++row;
 
+	std::cout << "                 Richard Harry           RichardHarry                   " << std::endl;
+
+	//Insert your code here   
+
+	SetConsoleTextAttribute(hConsole, FOREGROUND_RED | FOREGROUND_BLUE | FOREGROUND_INTENSITY | FOREGROUND_INTENSITY);
+	SetTextCoordinates(col, row);
+	++row;
+
+	std::cout << "                 Esk Eve                 StellarSpirit                   " << std::endl;
+
+	
+
+	SetConsoleTextAttribute(hConsole, FOREGROUND_BLUE | FOREGROUND_RED | FOREGROUND_INTENSITY | FOREGROUND_INTENSITY);
+	SetTextCoordinates(col, row);
+	++row;
+
+	std::cout << "                 Timothy Reynolds        ReynoldsKTim                   " << std::endl;
+
+
+	SetConsoleTextAttribute(hConsole, FOREGROUND_GREEN | FOREGROUND_INTENSITY);
+	SetTextCoordinates(col, row);
+	++row;
+
+	std::cout << "                 Ekin Karayalcin           weeds91                   " << std::endl;
+	std::cout << "                 Medushan Ranjan           Medushan                   " << std::endl;
+
+	SetConsoleTextAttribute(hConsole, FOREGROUND_RED | FOREGROUND_BLUE | FOREGROUND_INTENSITY);
+	SetTextCoordinates(col, row);
+	++row;
+	std::cout << "                 David Tees              Sawus                          " << std::endl;
+	SetConsoleTextAttribute(hConsole, FOREGROUND_GREEN | FOREGROUND_BLUE | FOREGROUND_INTENSITY);
+	SetTextCoordinates(col, row);
+	++row;
+	std::cout << "                 Ricardo Shimoda         ricardoshimoda                          " << std::endl;
+	SetConsoleTextAttribute(hConsole, FOREGROUND_RED | FOREGROUND_BLUE | FOREGROUND_INTENSITY);
+	SetTextCoordinates(col, row);
+	++row;
+	std::cout << "                 Anton Kogan              theblazero                          " << std::endl;
+
+	SetConsoleTextAttribute(hConsole, FOREGROUND_RED | FOREGROUND_BLUE | FOREGROUND_INTENSITY | BACKGROUND_GREEN);
+	SetTextCoordinates(col, row);
+	++row;
+	std::cout << "                 HsiaoTe Tang              k50730                             " << std::endl;
+
+	SetConsoleTextAttribute(hConsole, FOREGROUND_BLUE | FOREGROUND_GREEN | FOREGROUND_INTENSITY | FOREGROUND_INTENSITY);
+	SetTextCoordinates(col, row);
+	++row;
+
 	std::cout << "                 Nathaniel Vieira        NathanielV                     " << std::endl;
 
 	SetConsoleTextAttribute(hConsole, FOREGROUND_RED | FOREGROUND_INTENSITY);
+
 	SetTextCoordinates(col, row);
 	++row;
 
