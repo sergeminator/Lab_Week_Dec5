@@ -126,15 +126,15 @@ void DisplayWednesdayLabUserList(HANDLE hConsole)
 
 	std::cout << "                 Beomjin Kim              BJin2                   " << std::endl;
 
-	SetConsoleTextAttribute(hConsole, FOREGROUND_RED | FOREGROUND_INTENSITY);
-	SetTextCoordinates(col, row);
-	++row;
-
 	SetConsoleTextAttribute(hConsole, FOREGROUND_BLUE | FOREGROUND_RED | FOREGROUND_INTENSITY | FOREGROUND_INTENSITY);
 	SetTextCoordinates(col, row);
 	++row;
 
 	std::cout << "                 Tiara Beckford-Burnett           WanderingTiara                   " << std::endl;
+
+	SetConsoleTextAttribute(hConsole, FOREGROUND_BLUE | FOREGROUND_RED | FOREGROUND_INTENSITY | FOREGROUND_INTENSITY);
+	SetTextCoordinates(col, row);
+	++row;
 
 	std::cout << "                 Carlos Allison           cccxrelesss                   " << std::endl;
 
