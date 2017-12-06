@@ -27,7 +27,7 @@ void DisplayIntroMessage(HANDLE hConsole)
 	//BACKGROUND_INTENSITY	Background color is intensified.
 
 	// Combine colors in forground to create cyan
-	SetConsoleTextAttribute(hConsole, FOREGROUND_BLUE | FOREGROUND_GREEN | FOREGROUND_INTENSITY | BACKGROUND_BLUE);
+	SetConsoleTextAttribute(hConsole, FOREGROUND_BLUE | FOREGROUND_GREEN | FOREGROUND_INTENSITY | BACKGROUND_RED | BACKGROUND_BLUE);
 
 	SetTextCoordinates(48, 16);
 	std::cout << "***********" << std::endl;
@@ -88,7 +88,43 @@ void DisplayTuesdayLabUserList(HANDLE hConsole)
 
 void DisplayWednesdayLabUserList(HANDLE hConsole)
 {
+	system("cls"); // clear screen before we start drawing again
 
+	int row = 5;
+	int col = 10;
+
+	SetConsoleTextAttribute(hConsole, FOREGROUND_RED | FOREGROUND_INTENSITY);
+	SetTextCoordinates(col, row);
+	++row;
+
+	std::cout << "------------------------------------------------------------------------" << std::endl;
+
+	// Copy from here  --------------------------------------
+	SetConsoleTextAttribute(hConsole, FOREGROUND_BLUE | FOREGROUND_GREEN | FOREGROUND_INTENSITY | FOREGROUND_INTENSITY);
+	SetTextCoordinates(col, row);
+	++row;
+
+	std::cout << "                 Sergio Juarez           sergeminator                   " << std::endl;
+	// To here ----------------------------------------------
+
+	// Paste them here with your name and a new color for your text
+
+	SetConsoleTextAttribute(hConsole, FOREGROUND_RED | FOREGROUND_INTENSITY);
+	SetTextCoordinates(col, row);
+	++row;
+
+	std::cout << "------------------------------------------------------------------------" << std::endl;
+
+	row += 5;
+	SetConsoleTextAttribute(hConsole, BACKGROUND_BLUE | BACKGROUND_GREEN | BACKGROUND_RED);
+	SetTextCoordinates(col, row);
+	++row;
+
+	std::cout << "Enter any text to continue" << std::endl;
+
+	SetConsoleTextAttribute(hConsole, FOREGROUND_BLUE | FOREGROUND_GREEN | FOREGROUND_RED);
+	std::string userInput = "";
+	std::cin >> userInput;
 }
 
 void DisplayThursdayLabUserList(HANDLE hConsole)
