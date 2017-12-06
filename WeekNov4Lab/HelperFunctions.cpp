@@ -132,7 +132,7 @@ void DisplayWednesdayLabUserList(HANDLE hConsole)
 
 	std::cout << "                 Tiara Beckford-Burnett           WanderingTiara                   " << std::endl;
 
-	SetConsoleTextAttribute(hConsole, FOREGROUND_BLUE | FOREGROUND_RED | FOREGROUND_INTENSITY | FOREGROUND_INTENSITY);
+	SetConsoleTextAttribute(hConsole, FOREGROUND_RED | FOREGROUND_INTENSITY);
 	SetTextCoordinates(col, row);
 	++row;
 
