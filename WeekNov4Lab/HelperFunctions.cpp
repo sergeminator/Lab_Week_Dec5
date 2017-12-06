@@ -71,11 +71,6 @@ void DisplayTuesdayLabUserList(HANDLE hConsole)
 	
 
 
-	SetConsoleTextAttribute(hConsole, FOREGROUND_BLUE | FOREGROUND_RED | FOREGROUND_INTENSITY | FOREGROUND_INTENSITY);
-	SetTextCoordinates(col, row);
-	++row;
-
-	std::cout << "                 Sydney ikegwuonu          SydneyisMe                   " << std::endl;
 
 	SetConsoleTextAttribute(hConsole, FOREGROUND_RED | FOREGROUND_INTENSITY);
 	SetTextCoordinates(col, row);
@@ -138,10 +133,15 @@ void DisplayWednesdayLabUserList(HANDLE hConsole)
 
 	std::cout << "                 Carlos Allison           cccxrelesss                   " << std::endl;
 
-	SetConsoleTextAttribute(hConsole, FOREGROUND_RED | FOREGROUND_INTENSITY);
+	SetConsoleTextAttribute(hConsole, FOREGROUND_GREEN | FOREGROUND_RED | FOREGROUND_INTENSITY | FOREGROUND_INTENSITY);
 	SetTextCoordinates(col, row);
 	++row;
 
+	std::cout << "                 Sydney ikegwuonu          SydneyisMe                   " << std::endl;
+
+	SetConsoleTextAttribute(hConsole, FOREGROUND_RED | FOREGROUND_INTENSITY);
+	SetTextCoordinates(col, row);
+	++row;
 	std::cout << "------------------------------------------------------------------------" << std::endl;
 
 	row += 5;
