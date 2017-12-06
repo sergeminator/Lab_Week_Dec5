@@ -116,6 +116,11 @@ void DisplayWednesdayLabUserList(HANDLE hConsole)
 	// To here ----------------------------------------------
 
 	// Paste them here with your name and a new color for your text
+	SetConsoleTextAttribute(hConsole, FOREGROUND_RED | FOREGROUND_GREEN | FOREGROUND_INTENSITY | FOREGROUND_INTENSITY);
+	SetTextCoordinates(col, row);
+	++row;
+
+	std::cout << "                 Beomjin Kim              BJin2                   " << std::endl;
 
 	SetConsoleTextAttribute(hConsole, FOREGROUND_RED | FOREGROUND_INTENSITY);
 	SetTextCoordinates(col, row);
