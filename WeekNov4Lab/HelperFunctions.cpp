@@ -27,7 +27,8 @@ void DisplayIntroMessage(HANDLE hConsole)
 	//BACKGROUND_INTENSITY	Background color is intensified.
 
 	// Combine colors in forground to create cyan
-	SetConsoleTextAttribute(hConsole, FOREGROUND_BLUE | FOREGROUND_GREEN | FOREGROUND_INTENSITY | BACKGROUND_BLUE);
+	//SetConsoleTextAttribute(hConsole, FOREGROUND_BLUE | FOREGROUND_GREEN | FOREGROUND_INTENSITY | BACKGROUND_BLUE);
+	SetConsoleTextAttribute(hConsole, 3);
 
 	SetTextCoordinates(48, 16);
 	std::cout << "***********" << std::endl;
@@ -106,6 +107,8 @@ void DisplayThursdayLabUserList(HANDLE hConsole)
 	std::cout << "------------------------------------------------------------------------" << std::endl;
 
 
+	// Copy every thing from here
+	10fb8f10f8b083b03377a4e8b25359369a4cb635;
 	SetConsoleTextAttribute(hConsole, FOREGROUND_BLUE | FOREGROUND_GREEN | FOREGROUND_INTENSITY | FOREGROUND_INTENSITY);
 	SetTextCoordinates(col, row);
 	++row;
@@ -114,6 +117,23 @@ void DisplayThursdayLabUserList(HANDLE hConsole)
 
 
 
+
+
+	// To Here
+
+	/******************************** Paste your new code here *************************************/
+	10fb8f10f8b083b03377a4e8b25359369a4cb635;
+	SetConsoleTextAttribute(hConsole, FOREGROUND_BLUE | FOREGROUND_GREEN | FOREGROUND_INTENSITY | FOREGROUND_INTENSITY);
+	SetTextCoordinates(col, row);
+	++row;
+
+std::cout << "                 Chris Dujay           MrMust4chio                   " << std::endl;
+
+
+
+
+
+10fb8f10f8b083b03377a4e8b25359369a4cb635;
 	SetConsoleTextAttribute(hConsole, FOREGROUND_RED | FOREGROUND_INTENSITY);
 	SetTextCoordinates(col, row);
 	++row;
