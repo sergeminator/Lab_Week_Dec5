@@ -188,7 +188,11 @@ SetConsoleTextAttribute(hConsole, FOREGROUND_RED | FOREGROUND_GREEN | FOREGROUND
 SetTextCoordinates(col, row);
 ++row;
 	std::cout << "                 Adnan Sage           Sage                   " << std::endl;
-
+	
+	SetConsoleTextAttribute(hConsole, FOREGROUND_RED | FOREGROUND_GREEN | FOREGROUND_INTENSITY | FOREGROUND_INTENSITY);
+	SetTextCoordinates(col, row);
+	++row;
+	
 	std::cout << "                 Chris Dujay             MrMust4chio                   " << std::endl;
 
 
