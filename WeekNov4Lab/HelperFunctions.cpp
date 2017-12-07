@@ -121,16 +121,23 @@ void DisplayThursdayLabUserList(HANDLE hConsole)
 
 	// To Here
 
+<<<<<<< HEAD
 	/******************************** Paste your new code here *************************************/
 	10fb8f10f8b083b03377a4e8b25359369a4cb635;
+=======
+>>>>>>> 92d3b7caee20df8508aac9798aa644e9a8c0e991
 	SetConsoleTextAttribute(hConsole, FOREGROUND_BLUE | FOREGROUND_GREEN | FOREGROUND_INTENSITY | FOREGROUND_INTENSITY);
 	SetTextCoordinates(col, row);
 	++row;
 
+<<<<<<< HEAD
 std::cout << "                 Chris Dujay           MrMust4chio                   " << std::endl;
 
 
 
+=======
+	std::cout << "                 Ben LeBlanc             LeScoops                   " << std::endl;
+>>>>>>> 92d3b7caee20df8508aac9798aa644e9a8c0e991
 
 
 10fb8f10f8b083b03377a4e8b25359369a4cb635;
