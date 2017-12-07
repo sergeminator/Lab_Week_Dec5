@@ -69,6 +69,7 @@ void DisplayTuesdayLabUserList(HANDLE hConsole)
 
 	std::cout << "                 Sergio Juarez           sergeminator                   " << std::endl;
 	
+	
 	SetConsoleTextAttribute(hConsole, FOREGROUND_RED | FOREGROUND_INTENSITY);
 	SetTextCoordinates(col, row);
 	++row;
@@ -105,21 +106,49 @@ void DisplayThursdayLabUserList(HANDLE hConsole)
 
 	std::cout << "------------------------------------------------------------------------" << std::endl;
 
+
 	// Copy every thing from here
+	10fb8f10f8b083b03377a4e8b25359369a4cb635;
 	SetConsoleTextAttribute(hConsole, FOREGROUND_BLUE | FOREGROUND_GREEN | FOREGROUND_INTENSITY | FOREGROUND_INTENSITY);
 	SetTextCoordinates(col, row);
 	++row;
 
 	std::cout << "                 Sergio Juarez           sergeminator                   " << std::endl;
+
+
+
+
+
 	// To Here
 
+<<<<<<< HEAD
 	/******************************** Paste your new code here *************************************/
+<<<<<<< HEAD
 	SetConsoleTextAttribute(hConsole, FOREGROUND_RED | FOREGROUND_GREEN | FOREGROUND_INTENSITY | FOREGROUND_INTENSITY);
 	SetTextCoordinates(col, row);
 	++row;
+=======
+	10fb8f10f8b083b03377a4e8b25359369a4cb635;
+=======
+>>>>>>> 92d3b7caee20df8508aac9798aa644e9a8c0e991
+	SetConsoleTextAttribute(hConsole, FOREGROUND_BLUE | FOREGROUND_GREEN | FOREGROUND_INTENSITY | FOREGROUND_INTENSITY);
+	SetTextCoordinates(col, row);
+	++row;
 
+<<<<<<< HEAD
+std::cout << "                 Chris Dujay           MrMust4chio                   " << std::endl;
+
+
+
+=======
+	std::cout << "                 Ben LeBlanc             LeScoops                   " << std::endl;
+
+SetConsoleTextAttribute(hConsole, FOREGROUND_RED | FOREGROUND_GREEN | FOREGROUND_INTENSITY | FOREGROUND_INTENSITY);
+SetTextCoordinates(col, row);
+++row;
 	std::cout << "                 Adnan Sage           Sage                   " << std::endl;
 
+10fb8f10f8b083b03377a4e8b25359369a4cb635;
 	SetConsoleTextAttribute(hConsole, FOREGROUND_RED | FOREGROUND_INTENSITY);
 	SetTextCoordinates(col, row);
 	++row;
