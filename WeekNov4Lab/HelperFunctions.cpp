@@ -71,6 +71,7 @@ void DisplayTuesdayLabUserList(HANDLE hConsole)
 
 	
 	
+	
 	SetConsoleTextAttribute(hConsole, FOREGROUND_RED | FOREGROUND_INTENSITY);
 	SetTextCoordinates(col, row);
 	++row;
@@ -108,25 +109,26 @@ void DisplayThursdayLabUserList(HANDLE hConsole)
 	std::cout << "------------------------------------------------------------------------" << std::endl;
 
 
-<<<<<<< HEAD
-=======
 	// Copy every thing from here
 	
->>>>>>> 6603c52479e2796c9f5aa5800b14b6c32da5d6c9
+
+
+	// Copy every thing from here
+	
+
 	SetConsoleTextAttribute(hConsole, FOREGROUND_BLUE | FOREGROUND_GREEN | FOREGROUND_INTENSITY | FOREGROUND_INTENSITY);
 	SetTextCoordinates(col, row);
 	++row;
 
 	std::cout << "                 Sergio Juarez           sergeminator                   " << std::endl;
-<<<<<<< HEAD
 
-=======
 
 
 
 
 
 	// To Here
+
 
 
 	/******************************** Paste your new code here *************************************/
@@ -145,10 +147,67 @@ void DisplayThursdayLabUserList(HANDLE hConsole)
 
 
 
->>>>>>> 6603c52479e2796c9f5aa5800b14b6c32da5d6c9
 	SetConsoleTextAttribute(hConsole, FOREGROUND_RED | FOREGROUND_INTENSITY);
 	SetTextCoordinates(col, row);
 	++row;
+
+
+	SetConsoleTextAttribute(hConsole, FOREGROUND_BLUE | FOREGROUND_RED | FOREGROUND_INTENSITY | FOREGROUND_INTENSITY);
+
+	/******************************** Paste your new code here *************************************/
+
+	SetConsoleTextAttribute(hConsole, FOREGROUND_RED | FOREGROUND_GREEN | FOREGROUND_INTENSITY | FOREGROUND_INTENSITY);
+	SetTextCoordinates(col, row);
+	++row;
+
+	SetConsoleTextAttribute(hConsole, FOREGROUND_RED | FOREGROUND_INTENSITY);
+	SetTextCoordinates(col, row);
+	++row;
+
+	std::cout << "------------------------------------------------------------------------" << std::endl;
+
+	SetConsoleTextAttribute(hConsole, FOREGROUND_BLUE | FOREGROUND_GREEN | FOREGROUND_INTENSITY | FOREGROUND_INTENSITY);
+	SetTextCoordinates(col, row);
+	++row;
+
+
+	std::cout << "                 Gareth Poole            Serentty                      " << std::endl;
+
+
+	SetConsoleTextAttribute(hConsole, FOREGROUND_RED | FOREGROUND_INTENSITY);
+	SetTextCoordinates(col, row);
+	++row;
+
+	std::cout << "------------------------------------------------------------------------" << std::endl;
+
+	SetConsoleTextAttribute(hConsole, FOREGROUND_BLUE | FOREGROUND_GREEN | FOREGROUND_INTENSITY | FOREGROUND_INTENSITY);
+	SetTextCoordinates(col, row);
+	++row;
+
+SetConsoleTextAttribute(hConsole, FOREGROUND_RED | FOREGROUND_GREEN | FOREGROUND_INTENSITY | FOREGROUND_INTENSITY);
+SetTextCoordinates(col, row);
+++row;
+	std::cout << "                 Adnan Sage           Sage                   " << std::endl;
+
+	std::cout << "                 Chris Dujay             MrMust4chio                   " << std::endl;
+
+
+	SetConsoleTextAttribute(hConsole, FOREGROUND_RED | FOREGROUND_INTENSITY);
+	SetTextCoordinates(col, row);
+	++row;
+
+	std::cout << "------------------------------------------------------------------------" << std::endl;
+
+	SetConsoleTextAttribute(hConsole, FOREGROUND_BLUE | FOREGROUND_RED | FOREGROUND_INTENSITY | FOREGROUND_INTENSITY);
+	SetTextCoordinates(col, row);
+	++row;
+
+	std::cout << "                 Ben LeBlanc             LeScoops                   " << std::endl;
+
+	SetConsoleTextAttribute(hConsole, FOREGROUND_RED | FOREGROUND_INTENSITY);
+	SetTextCoordinates(col, row);
+	++row;
+
 
 	std::cout << "------------------------------------------------------------------------" << std::endl;
 
@@ -162,8 +221,10 @@ void DisplayThursdayLabUserList(HANDLE hConsole)
 	SetConsoleTextAttribute(hConsole, FOREGROUND_BLUE | FOREGROUND_GREEN | FOREGROUND_RED);
 	std::string userInput = "";
 	std::cin >> userInput;
-<<<<<<< HEAD
+
 }
-=======
+
 }
->>>>>>> 6603c52479e2796c9f5aa5800b14b6c32da5d6c9
+
+}
+
