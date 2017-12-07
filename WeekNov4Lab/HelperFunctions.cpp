@@ -111,9 +111,13 @@ void DisplayThursdayLabUserList(HANDLE hConsole)
 	++row;
 
 	std::cout << "                 Sergio Juarez           sergeminator                   " << std::endl;
-	// To Here
 
-	/******************************** Paste your new code here *************************************/
+	SetConsoleTextAttribute(hConsole, FOREGROUND_GREEN | FOREGROUND_INTENSITY);
+	SetTextCoordinates(col, row);
+	++row;
+
+	std::cout << "                 Alex Liu                canFarm                   " << std::endl;
+	// To Here
 
 
 	SetConsoleTextAttribute(hConsole, FOREGROUND_RED | FOREGROUND_INTENSITY);
